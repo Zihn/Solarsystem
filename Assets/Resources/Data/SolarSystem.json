@@ -1,0 +1,190 @@
+{	
+	"Name" : "Solar System",
+	"Location" : "Local Interstellar Cloud, Local Bubble, Orion–Cygnus Arm, Milky Way",
+	"Age" : 4.568e9,
+	"Suns" : 
+	[{
+		"Name" : "Sun",
+		"Type" : "Yellow Dwarf",
+		"Radius" : 6.95700e5,
+		"Mass" : 1.98855e30,
+		"Color" : "#ffffff",
+		"Age" : 4.6e9,
+		"Position" : { "x": 0, "y": 0}	
+	}],
+	"Planets" :  
+	[{
+		"Name" : "Mercury",
+		"Type" : "Terrestial",
+		"Radius" : 2.4397e3,
+		"Mass" : 3.3011e23,
+		"Color" : "#505660",
+		"Apoapsis" : 6.98169e7,
+		"Periapsis" : 4.60012e7,
+		"OrbitingIndex" : "0"
+	},
+	{
+		"Name" : "Venus",
+		"Type" : "Terrestial",
+		"Radius" : 6.0518e3,
+		"Mass" : 4.8675e24,
+		"Color" : "#DCCC8E",
+		"Apoapsis" : 1.08939e8,
+		"Periapsis" : 1.07477e8,
+		"OrbitingIndex" : "0"
+	},
+	{
+		"Name" : "Earth",
+		"Type" : "Terrestial",
+		"Radius" : 6.371e3,
+		"Mass" : 5.97237e24,
+		"Color" : "#2D4671",
+		"Apoapsis" : 1.521e8,
+		"Periapsis" : 1.47095e8,
+		"OrbitingIndex" : "0",
+		"Moons"	: 
+		[{
+			"Name" : "Moon",
+			"Type" : "Terrestial",
+			"Radius" : 1.7371e3,
+			"Mass" : 7.342e22,
+			"Color" : "#505660",
+			"Apoapsis" : 4.054e5,
+			"Periapsis" : 3.626e5,
+			"Approachable" : "false"
+		}]
+	},
+	{
+		"Name" : "Mars",
+		"Type" : "Terrestial",
+		"Radius" : 3.3895e3,
+		"Mass" : 6.4171e23,
+		"Color" : "#fc8865",
+		"Apoapsis" : 2.49230e8,
+		"Periapsis" : 2.06654e8,
+		"OrbitingIndex" : "0"
+	},
+	{
+		"Name" : "Jupiter",
+		"Type" : "Gas Giant",
+		"Radius" : 69.911e3,
+		"Mass" : 1.8986e27,
+		"Color" : "#FFD7A4",
+		"Apoapsis" : 8.16044e8,
+		"Periapsis" : 7.40552e8,
+		"OrbitingIndex" : "0",
+		"Moons"	: 
+		[{
+			"Name" : "Io",
+			"Type" : "Terrestial",
+			"Radius" : 1.8216e3,
+			"Mass" : 8.931938e22,
+			"Color" : "#FFD556",
+			"Apoapsis" : 4.2e5,
+			"Periapsis" : 4.234e5,
+			"Approachable" : "false"
+		},
+		{
+			"Name" : "Europa",
+			"Type" : "Terrestial",
+			"Radius" : 1.5608e3,
+			"Mass" : 4.799844e22,
+			"Color" : "#B67600",
+			"Apoapsis" : 6.64862e5,
+			"Periapsis" : 6.76938e5,
+			"Approachable" : "false"
+		},
+		{
+			"Name" : "Ganymede",
+			"Type" : "Terrestial",
+			"Radius" : 2.6341e3,
+			"Mass" : 1.4819e23,
+			"Color" : "#D9C48D",
+			"Apoapsis" : 1.0692e6,
+			"Periapsis" : 1.0716e6,
+			"Approachable" : "false"
+		},
+		{
+			"Name" : "Callisto",
+			"Type" : "Terrestial",
+			"Radius" : 2.4103e3,
+			"Mass" : 1.075938e23,
+			"Color" : "#505660",
+			"Apoapsis" : 1.869e6,
+			"Periapsis" : 1.897e6,
+			"Approachable" : "false"
+		},
+		{
+			"Name" : "Metis",
+			"Type" : "Terrestial",
+			"Radius" : 21.5,
+			"Mass" : 3.6e16,
+			"Color" : "#989898",
+			"Apoapsis" : 1.27974e5,
+			"Periapsis" : 1.28026e5,
+			"Approachable" : "false"
+		},
+		{
+			"Name" : "Adrastea",
+			"Type" : "Terrestial",
+			"Radius" : 8.2,
+			"Mass" : 0.2e16,
+			"Color" : "#505660",
+			"Apoapsis" : 1.29e5,
+			"Periapsis" : 1.29e5,
+			"Approachable" : "false"
+		},
+		{
+			"Name" : "Amalthea",
+			"Type" : "Terrestial",
+			"Radius" : 83.5,
+			"Mass" : 2.08e18,
+			"Color" : "#505660",
+			"Apoapsis" : 1.8284e5,
+			"Periapsis" : 1.815e5,
+			"Approachable" : "false"
+		},
+		{
+			"Name" : "Thebe",
+			"Type" : "Terrestial",
+			"Radius" : 49.3,
+			"Mass" : 43.0e16,
+			"Color" : "#505660",
+			"Apoapsis" : 2.26e5,
+			"Periapsis" : 2.18e5,
+			"Approachable" : "false"
+		}
+		]
+
+	},
+	{
+		"Name" : "Saturn",
+		"Type" : "Gas Giant",
+		"Radius" : 58.232e3,
+		"Mass" : 5.6836e26,
+		"Color" : "#FFD7A4",
+		"Apoapsis" : 1.508844e9,
+		"Periapsis" : 1.349971e9,
+		"OrbitingIndex" : "0"
+	},
+	{
+		"Name" : "Uranus",
+		"Type" : "Ice Giant",
+		"Radius" : 25.362e3,
+		"Mass" : 8.6810e25,
+		"Color" : "#B4F1ED",
+		"Apoapsis" : 3.008413e9,
+		"Periapsis" : 2.742128e9,
+		"OrbitingIndex" : "0"
+	},
+	{
+		"Name" : "Neptune",
+		"Type" : "Ice Giant",
+		"Radius" : 24.622e3,
+		"Mass" : 1.0243e26,
+		"Color" : "#531CF8",
+		"Apoapsis" : 4.537303e9,
+		"Periapsis" : 4.459512e9,
+		"OrbitingIndex" : "0"
+	}]
+}
